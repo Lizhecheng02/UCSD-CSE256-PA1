@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ### Prepare Data
 
-- You need to put the ``glove.6B.50d-relativized.txt`` and ``glove.6B.300d-relativized.txt`` files under the **PA1/data** folder.
+- You need to put the ``glove.6B.50d-relativized.txt`` and ``glove.6B.300d-relativized.txt`` files under the **./data** folder.
 
 #### (1) You could download all data using Kaggle Api
 
@@ -29,6 +29,7 @@ sudo apt install unzip
 #### (3) Download datasets ([Link](https://kaggle.com/datasets/7d4c9051944b3f7d0ef7d6e47e20fe260eef79bd6f3335fef47e2582a292d5a5))
 
 ```bash
+cd data
 kaggle datasets download -d lizhecheng/cse256-pa-data
 unzip cse256-pa-data.zip
 ```
@@ -75,3 +76,7 @@ unzip cse256-pa-data.zip
 <div style="text-align: center;">
     <img src="./dev_accuracy_dan_bpe.png" width="60%" />
 </div>
+
+### Questions
+
+You are welcome to discuss any issues you encounter while running this GitHub repository. Feel free to either open an issue or contact me directly at **zhl186@ucsd.edu**.
